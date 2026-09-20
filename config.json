@@ -1,0 +1,26 @@
+{
+  "blockedTypes": [
+    "sticker",
+    "audio",
+    "document",
+    "contact",
+    "location"
+  ],
+  "blockLinks": true,
+  "blockBareDomains": true,
+  "allowedDomains": [],
+  "blockAbuse": true,
+  "bannedWords": [
+    "fuck",
+    "bitch",
+    "bastard",
+    "asshole",
+    "kill yourself"
+  ],
+  "aiModeration": true,
+  "groupRules": "No spam, no abuse or insults, no harassment or bullying, no slurs or hate speech, no advertising, no adult content.",
+  "maxWarnings": 3,
+  "ollamaUrl": "http://localhost:11434",
+  "ollamaModel": "llama3.2",
+  "ollamaVisionModel": "gemma3:4b"
+}
